@@ -1,0 +1,51 @@
+/********** col 1 **********/
+footer .description-container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  footer .description-container {
+    display: flex;
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+
+/********** col 2 **********/
+footer .social-media-container {
+  display: flex;
+  align-items: center;
+  padding-right: 0;
+}
+
+footer .social-media-container .social-media {
+	width: 80%;
+  padding: 1rem 15px;
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  footer .social-media-container .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+footer .social-media-container .social-media a { margin-left: 1.5rem;}
+footer .social-media-container .social-media a:first-child { margin-left: 0;}
+footer .social-media-container .social-media a:last-child { margin-right: 0;}
+
+footer .social-media-container .social-media a:hover { border-bottom: 1px solid #000;}
+footer .social-media-container .social-media a p { margin-bottom: 0.5rem;}
+
+@media screen and (min-width: 768px) {
+  footer .social-media-container .social-media a { margin: 0 0 0 1rem;}
+  footer .social-media-container .social-media a p { margin-bottom: 0;}
+}
+
+footer .social-media-container .bg-gradient {
+	width: 20%;
+	height: 100%;
+}
