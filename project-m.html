@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>sm</title>
+  <meta property="og:title" content="sm"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+
+  <meta property="og:description" name="description" content="Hello! My name is Sara Marques and I’m looking for a challenge to keep me growing as a Web Designer and also a Front-end Developer."/>
+  <meta name="keywords" content="web, digital, UX, UI, design, front-end, developer, mobile, desktop, responsive, mobile ads, website, portfolio, resume, CV, portugal, lisbon, spain, columbia, redbull, reebok, coca-cola, universal pictures, 20th century fox"/>
+
+  <link rel="shortcut icon" type="image/png" href="assets/images/ico/favicon.png"/>
+  <link rel="stylesheet" href="assets/css/reset.min.css"/>
+
+  <link rel="stylesheet" href="assets/fonts/light/styles.css">
+  <link rel="stylesheet" href="assets/fonts/bold/styles.css">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+
+  <link rel="stylesheet" href="assets/css/header.css"/>
+  <link rel="stylesheet" href="assets/css/footer.css"/>
+
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <link rel="stylesheet" href="assets/css/project.css"/>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 menu-container">
+          <a href="index.html">
+            <img class="logo" src="assets/images/logo.svg" alt="sm logo"/>
+          </a>
+
+          <div id="menuToggle" class="menu-burguer">
+      			<div class="bar"></div>
+      			<div class="bar"></div>
+      			<div class="bar"></div>
+      		</div>
+        </div>
+
+        <div id="dropdown" class="col-12 dropdown">
+          <ul>
+            <li class="dropdown-item dropdown-item-0"><a href="index.html">Home</a></li>
+            <li class="dropdown-item dropdown-item-0"><a href="about.html">About</a></li>
+            <li id="dropdownItemProject" class="dropdown-item dropdown-item-1">Projects</li>
+              <ul class="sub-dropdown">
+                <li onclick="selectedProject(0)"><small>Bee Child</small></li>
+                <li onclick="selectedProject(1)"><small>RedBull Culture Clash</small></li>
+                <li onclick="selectedProject(2)"><small>Reebok: Perfect Never</small></li>
+                <li onclick="selectedProject(3)"><small>Coca-Cola Teens</small></li>
+                <li onclick="selectedProject(4)"><small>Despicable Me 3</small></li>
+                <li onclick="selectedProject(5)"><small>Alien: Covenant</small></li>
+              </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="bg-second-layer">
+    <section class="visible project-feature-container">
+      <div class="container">
+        <div class="row">
+          <div id="imgProjectFeature" class="col-sm-12 col-md-10 order-md-2 img-project-feature"></div>
+          <button id="btnPreviousProject" class="col-6 col-md-1 order-md-1"><p>Previous<br>project</p></button>
+          <button id="btnNextProject" class="col-6 col-md-1 order-md-3"><p>Next<br>project</p></button>
+        </div>
+
+        <div class="row description-project-feature">
+          <div class="col-sm-12 col-md-5">
+            <p class="title"><strong>Project</strong></p>
+            <small id="projectProjectFeature"></small>
+
+            <p class="title"><strong>Format</strong></p>
+            <small id="formatProjectFeature"></small>
+
+            <p class="title"><strong>Client</strong></p>
+            <small id="clientDateProjectFeature"></small>
+
+            <p class="title"><strong>Specificities</strong></p>
+            <small id="specificitiesProjectFeature"></small>
+          </div>
+
+          <div class="col-sm-12 col-md-5">
+            <p id="descriptionProjectFeature"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-responsive-view-container">
+      <div class="container">
+        <div class="row">
+          <div id="imgProjectResponsiveView" class="col-sm-12 col-md-10 order-md-2 img-project-responsive-view"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-gallery-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-10">
+            <div class="row">
+              <div class="col-sm-12 col-md-4">
+                <p><strong id="quoteProjectGallery"></strong></p>
+                <video id="videoProjectGallery1" controls></video>
+                <img id="imgProjectGallery1" src="" alt="">
+              </div>
+
+              <div class="col-sm-12 col-md-4">
+                <video id="videoProjectGallery2" controls></video>
+                <img id="imgProjectGallery2" src="" alt="">
+                <img id="imgProjectGallery3" src="" alt="">
+              </div>
+
+              <div class="col-sm-12 col-md-4">
+                <video id="videoProjectGallery4" controls></video>
+                <img id="imgProjectGallery4" src="" alt="">
+                <video id="videoProjectGallery5" controls></video>
+                <img id="imgProjectGallery5" src="" alt="">
+                <p class="conditions-project-gallery">*Contract terms and conditions not allowed me to share the project, however the images and videos on this website were taken directly from the link.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 description-container">
+          <small>Hello! My name is Sara Marques and I’m looking for a challenge to keep me growing as a Web Designer and also a Front-end Developer.</small>
+        </div>
+        <div class="col-sm-12 col-md-6 offset-md-2 social-media-container">
+          <div class="social-media">
+            <a href="mailto:smsaramarques01@gmail.com"><p>smsaramarques01@gmail.com</p></a>
+            <a href="https://www.behance.net/smsaramarques">Be</a>
+            <a href="http://linkedin.com/in/sara-marques-b79394bb">in</a>
+            <a href="https://www.facebook.com/smsaramarques01">F</a>
+          </div>
+          <div class="bg-gradient"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- SCRIPTS  -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+<script type='text/javascript' src="assets/js/main.js"></script>
+<script type='text/javascript' src="assets/js/project.js"></script>
+
+</body>
+</html>

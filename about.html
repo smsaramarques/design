@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>sm</title>
+  <meta property="og:title" content="sm"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+
+  <meta property="og:description" name="description" content="Hello! My name is Sara Marques and I’m looking for a challenge to keep me growing as a Web Designer and also a Front-end Developer."/>
+  <meta name="keywords" content="web, digital, UX, UI, design, front-end, developer, mobile, desktop, responsive, mobile ads, website, portfolio, resume, CV, portugal, lisbon, spain, columbia, redbull, reebok, coca-cola, universal pictures, 20th century fox"/>
+
+  <link rel="shortcut icon" type="image/png" href="assets/images/ico/favicon.png"/>
+  <link rel="stylesheet" href="assets/css/reset.min.css"/>
+
+  <link rel="stylesheet" href="assets/fonts/light/styles.css">
+  <link rel="stylesheet" href="assets/fonts/bold/styles.css">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+
+  <link rel="stylesheet" href="assets/css/header.css"/>
+  <link rel="stylesheet" href="assets/css/footer.css"/>
+
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <link rel="stylesheet" href="assets/css/about.css"/>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 menu-container">
+          <a href="index.html">
+            <img class="logo" src="assets/images/logo.svg" alt="sm logo"/>
+          </a>
+
+          <div id="menuToggle" class="menu-burguer">
+      			<div class="bar"></div>
+      			<div class="bar"></div>
+      			<div class="bar"></div>
+      		</div>
+        </div>
+
+        <div id="dropdown" class="col-12 dropdown">
+          <ul>
+            <li class="dropdown-item dropdown-item-0"><a href="index.html">Home</a></li>
+            <li class="dropdown-item dropdown-item-0"><a href="about.html">About</a></li>
+            <li id="dropdownItemProject" class="dropdown-item dropdown-item-1">Projects</li>
+              <ul class="sub-dropdown">
+                <li onclick="selectedProject(0)"><small>Bee Child</small></li>
+                <li onclick="selectedProject(1)"><small>RedBull Culture Clash</small></li>
+                <li onclick="selectedProject(2)"><small>Reebok: Perfect Never</small></li>
+                <li onclick="selectedProject(3)"><small>Coca-Cola Teens</small></li>
+                <li onclick="selectedProject(4)"><small>Despicable Me 3</small></li>
+                <li onclick="selectedProject(5)"><small>Alien: Covenant</small></li>
+              </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="visible about-presentation-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 offset-lg-2 order-md-2 img-about-presentation bg-gradient"></div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 order-md-1 text-about-presentation">
+            <h4>Hello!<br>I'm Sara Marques</h4>
+            <p>and I’m looking for a challenge to keep me growing as a Web Designer and also a Front-end Developer.</p>
+            <p>With over three years’ designing and developing responsive websites, advertisings and other formats for desktop and smartphone allowed me to explore my versatility and graphic design skills on a digital world.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-card-container">
+      <div class="container">
+        <div class="accordion" id="accordionAboutTimeline">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                10 - 14
+              </button>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionAboutTimeline">
+              <div class="card-body">
+                <p class="title-about-timeline"><strong>DEGREE IN COMUNICATIONS DESIGN</strong></p>
+                <small>Lusofona, Lisbon</small>
+                <p class="description-about-timeline">- Graphic design: logos and graphics standards manuals, small and large prints as flyers and billboards.Briefing analysis, budget proposal, printing methods.<br>- Motion Design: After Effects - 2D and 3D<br>- Web Design: HTML and CSS through Dreamweaver, Flash Professional<br>- Analog and digital photography.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                14 - 15
+              </button>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionAboutTimeline">
+              <div class="card-body">
+                <p class="title-about-timeline"><strong>POSTGRADUATE DEGREE IN WEB DESIGN</strong></p>
+                <small>IADE/ IPAM, Lisbon</small>
+                <p class="description-about-timeline">Programming - HTML5, CSS, jQuery and JavaScript - and user knowledge - UX & UI Design - applied in the final project: personas, moodboards, stylescapes, wireframes, design, online and live tests to potential users, and finally, development.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                14 - 16
+              </button>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionAboutTimeline">
+              <div class="card-body">
+                <p class="title-about-timeline"><strong>MASTER’S DEGREE IN DESIGN AND VISUAL CULTURE</strong></p>
+                <small>IADE, Lisbon</small>
+                <p class="description-about-timeline">Innovation and creativity were the key to achieve different and original solutions for graphic projects of a social, cultural and economic nature. Visual and graphic design, typography and digital photography were some of the fields of work that allowed me to explore such abilities.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                16 - 18
+              </button>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionAboutTimeline">
+              <div class="card-body">
+                <p class="title-about-timeline"><strong>WEB DESIGNER & FRONT-END DEVELOPER</strong></p>
+                <small>YDigital Media, Lisbon</small>
+                <p class="description-about-timeline">Design and development of digital advertisings for large multinational companies as Coca-Cola and Reebok. Rich Medias, landing pages, banners, newsletters and redesign of the agency’s website were made, such as video and graphic design.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                18 - 19
+              </button>
+            </div>
+            <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionAboutTimeline">
+              <div class="card-body">
+                <p class="title-about-timeline"><strong>FRONT-END DEVELOPER</strong></p>
+                <small>Codefive, Lisbon</small>
+                <p class="description-about-timeline">Design and development of digital advertisings for large multinational companies as Coca-Cola and Reebok. Rich Medias, landing pages, banners, newsletters and redesign of the agency’s website were made, such as video and graphic design.Development of an application for Datalink. HTML, CSS, Bootstrap, JavaScript - ajax and json - were some of the languages used for these monthly project.</p>
+              </div>
+              <div class="card-body">
+                <p class="title-about-timeline"><strong>WEB DESIGNER & FRONT-END DEVELOPER</strong></p>
+                <small>Bee Ineditus, Lisbon</small>
+                <p class="description-about-timeline">Design and development of websites for national companies of the pharmaceutical industry, fashion and furniture. HTML, SCSS, Bootstrap, jQuery, Wordpress and Microsoft Visual Studio were some of the tools used for these projects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-timeline-container">
+      <div class="container">
+        <div class="row timeline">
+          <div class="col-12">
+            <p id="date10" class="date" onclick="clickTimeline(0)">2010</p>
+            <div id="line0" class="line line0" onclick="clickTimeline(0)"></div>
+            <p id="date14" class="date" onclick="clickTimeline(1)">2014</p>
+            <div id="line1" class="line line1" onclick="clickTimeline(1)"></div>
+            <p id="date15" class="date" onclick="clickTimeline(1)">2015</p>
+          </div>
+        </div>
+
+        <div class="row timeline">
+          <div class="col-12">
+            <div id="line2" class="line line2" onclick="clickTimeline(2)"></div>
+            <p id="date16" class="date" onclick="clickTimeline(3)">2016</p>
+            <div id="line3" class="line line3" onclick="clickTimeline(3)"></div>
+            <p id="date18" class="date" onclick="clickTimeline(3)">2018</p>
+            <div id="line4" class="line line4" onclick="clickTimeline(4)"></div>
+            <p id="date19" class="date" onclick="clickTimeline(4)">2019</p>
+          </div>
+        </div>
+
+        <div class="row description-timeline">
+          <div class="col-md-6">
+            <p class="title-about-description-timeline"><strong id="titleTimeline">FRONT-END DEVELOPER</strong></p>
+            <small id="locationTimeline">Codefive, Lisbon</small>
+            <p class="text-about-description-timeline" id="textTimeline">Development of an application for Datalink. HTML, CSS, Bootstrap, JavaScript - ajax and json - were some of the languages used for these monthly project.</p>
+          </div>
+
+          <div id="col2DescriptionTimeline" class="col-md-6">
+            <p class="title-about-description-timeline"><strong id="titleTimeline2">WEB DESIGNER & FRONT-END DEVELOPER</strong></p>
+            <small id="locationTimeline2">Bee Ineditus, Lisbon</small>
+            <p class="text-about-description-timeline" id="textTimeline2">Design and development of websites for national companies of the pharmaceutical industry, fashion and furniture. HTML, SCSS, Bootstrap, jQuery, Wordpress and Microsoft Visual Studio were some of the tools used for these projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-rgba about-brands-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <strong>Clients</strong>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <img src="assets/images/logos/chevrolet.png" alt="logo chevrolet"/>
+            <img src="assets/images/logos/coca-cola.png" alt="logo coca-cola"/>
+            <img src="assets/images/logos/ikea.png" alt="logo ikea"/>
+            <img src="assets/images/logos/loreal.png" alt="logo loreal"/>
+            <img src="assets/images/logos/qantas.png" alt="logo qantas"/>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <img src="assets/images/logos/redbull.png" alt="logo redbull"/>
+            <img src="assets/images/logos/reebok.png" alt="logo reebok"/>
+            <img src="assets/images/logos/samsung.png" alt="logo samsung"/>
+            <img src="assets/images/logos/tap.png" alt="logo tap air portugal"/>
+            <img src="assets/images/logos/universal.png" alt="logo universal pictures"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-languages-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <strong>Languages</strong>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <p>What language(s) do you speak?<br>We can talk in Portuguese, English or Spanish.</p>
+          </div>
+
+          <div class="col-sm-12 col-md-5 offset-md-1">
+            <div class="col-4">
+              <strong>Portuguese</strong>
+              <hr>
+              <p>Native</p>
+            </div>
+
+            <div class="col-4">
+              <strong>English</strong>
+              <hr>
+              <p>B2</p>
+            </div>
+
+            <div class="col-4">
+              <strong>Spanish</strong>
+              <hr>
+              <p>B1</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 description-container">
+          <small>Hello! My name is Sara Marques and I’m looking for a challenge to keep me growing as a Web Designer and also a Front-end Developer.</small>
+        </div>
+        <div class="col-sm-12 col-md-6 offset-md-2 social-media-container">
+          <div class="social-media">
+            <a href="mailto:smsaramarques01@gmail.com"><p>smsaramarques01@gmail.com</p></a>
+            <a href="https://www.behance.net/smsaramarques">Be</a>
+            <a href="http://linkedin.com/in/sara-marques-b79394bb">in</a>
+            <a href="https://www.facebook.com/smsaramarques01">F</a>
+          </div>
+          <div class="bg-gradient"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS  -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+  <script type='text/javascript' src="assets/js/main.js"></script>
+  <script type='text/javascript' src="assets/js/about.js"></script>
+  </body>
+  </html>
